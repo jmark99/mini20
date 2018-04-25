@@ -86,7 +86,7 @@ case "$cmd" in
   monitor) JAVA_OPTS=("${JAVA_OPTS[@]}" '-Xmx256m' '-Xms256m') ;;
   gc)      JAVA_OPTS=("${JAVA_OPTS[@]}" '-Xmx256m' '-Xms256m') ;;
   tserver) JAVA_OPTS=("${JAVA_OPTS[@]}" '-Xmx768m' '-Xms768m') ;;
-  shell)   JAVA_OPTS=("${JAVA_OPTS[@]}" '-Xmx256m' '-Xms64m' "${DEBUG_OPTS}") ;;
+#  shell)   JAVA_OPTS=("${JAVA_OPTS[@]}" '-Xmx256m' '-Xms64m' "${DEBUG_OPTS}") ;;
   *)       JAVA_OPTS=("${JAVA_OPTS[@]}" '-Xmx256m' '-Xms64m') ;;
 esac
 
