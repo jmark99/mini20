@@ -13,8 +13,8 @@
   </property>
   <property>
     <name>instance.volumes</name>
-    <!--     <value>file:///tmp/miniFS/accumulo</value> -->
-    <value>hdfs://localhost:8020/accumulo</value>
+    <value>file:///tmp/miniFS/accumulo</value>
+    <!--    <value>hdfs://localhost:8020/accumulo</value> -->
   </property>
   <property>
     <name>instance.zookeeper.host</name>
